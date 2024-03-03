@@ -8,8 +8,8 @@ void main()
 	setlocale(LC_ALL, "");
 	/* ++ increment (инкремент)
 	   -- decrement (декремент)
-	   ++i prefix increment
-	   i++ postfix increment*/
+	   ++i prefix  increment имеет самый высокий приоритет
+	   i++ postfix increment имеет самый низкий приоритет, ниже чем у оператора присвоить ' = '*/
 	int i = 0;
 	i = ++i + ++i;
 	cout << i << endl;// 4
