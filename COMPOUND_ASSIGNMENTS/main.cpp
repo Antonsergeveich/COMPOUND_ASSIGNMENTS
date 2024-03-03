@@ -31,4 +31,8 @@ void main()
 	int c = 0;
 	c += c++ + 1 + (++c *= 2);
 	cout << c << endl;// 8
+
+	int b = 0;
+	b *= b++ + 1 + (++b += 2);
+	cout << b << endl; //22
 }
